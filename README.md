@@ -51,9 +51,10 @@ remotes::install_github("traversc/rfolly",configure.args="--with-jemalloc")
 
 ## Things needed to get CRAN-ready
 
+* Get rid of cpp files and components that are not header only
+* Fix Pragmas (not allowed by R CMD check)
 * Sort out license
 * Figure out which components are available
-* Get rid of cpp files and components that are not header only
 * Proper testing
 * Documentation, help files
 * ???
