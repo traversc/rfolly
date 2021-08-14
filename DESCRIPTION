@@ -10,5 +10,5 @@ SystemRequirements: C++14
 License: Apache 2.0
 URL: https://github.com/traversc/rfolly
 BugReports: https://github.com/traversc/rfolly/issues
-LinkingTo: Rcpp
+LinkingTo: Rcpp, BH
 RoxygenNote: 7.1.1
